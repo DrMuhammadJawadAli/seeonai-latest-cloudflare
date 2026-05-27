@@ -1,0 +1,13 @@
+# Redirect rules for Cloudflare Pages
+# Redirect /index to /
+/index                 /                    301
+
+# Ensure trailing slashes for directory access
+/about                 /about/              301
+/contact              /contact/            301
+/services             /services/           301
+/projects             /projects/           301
+/privacy-policy       /privacy-policy/     301
+/hello-world          /hello-world/        301
+/category/uncategorized /category/uncategorized/ 301
+/elementor-hf         /elementor-hf/       301
